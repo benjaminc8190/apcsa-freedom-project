@@ -13,7 +13,7 @@
   * Top middle: scene- Basically the preview for what happens in the scene, select game view to see how the game will look like from user perspective
   * Left: Inspector- Manipulating game objects to perform actions and name the objects
 
-### 10/14/X24: [W3 Schools]([https://www.youtube.com/watch?v=-wCZDcoGBeE&list=PL0eyrZgxdwhwQZ9zPUC7TnJ-S0KxqGlrN&index=2](https://www.w3schools.com/cs/index.php))
+### 10/14/24: [W3 Schools](https://www.w3schools.com/cs/index.php)
 * Created a codespace by following the instructions on Get Started section and got this:
 ```C#
 namespace HelloWorld
