@@ -45,6 +45,15 @@ Notes so far:
 * `Console.WriteLine();` is like `System.out.println();`
 * C# is very similar to java since it is object-oriented 
 
+### 10/26/24: [Godot Showcase](https://godotengine.org/showcase/), [First game in Godot](https://www.youtube.com/watch?v=iwGVLiFL-Lw)
+* Pros of switching to Godot:
+ * Godot is very good for small companies or solo dev while Unity is mostly for game industry and big companies
+ * Most people find Unity annoying while Godot is a lot more easier and more fun to code in
+ * Skills are easily transferrable
+ * everybody is using it so we can ask when need help
+ * tutorials are much more recent
+
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
