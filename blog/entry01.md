@@ -2,7 +2,7 @@
 ##### 11/04/24
 
 ## **Context**:
-In this project, I will be makeing a civilization or city-building simulator game with my Zixuan Yu and William Zheng. The tools that we've testing with to see the best fit to use for the project are [Unity]([https://react.dev/learn](https://unity.com/)) and [Godot]([https://react.dev/learn](https://godotengine.org/)). These tools support (C#)[https://www.w3schools.com/cs/index.php], a programming language I plan to use for the project.             
+In this project, I will be makeing a civilization or city-building simulator game with my Zixuan Yu and William Zheng. The tools that we've testing with to see the best fit to use for the project are [Unity][https://unity.com/] and [Godot](https://godotengine.org/). These tools support [C#](https://www.w3schools.com/cs/index.php), a programming language I plan to use for the project.             
 
 ## **Content**:
 
