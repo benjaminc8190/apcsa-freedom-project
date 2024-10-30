@@ -8,65 +8,42 @@ In this project, I will be makeing a civilization or city-building simulator gam
 
 #### **Tinker #1**:
 
-From what I learned from Samuel, I started by using `npx create-react-app appName`(This is to download a React app in my ide). Next, I created a components folder where I made a `Navbar`(I kept in mind to name my components using capitalize first letters). I replaced `<Navbar />` with everything inside the `<div>`. so that it shows what I wrote for the navbar.
+I tried out C# by following the instructions to download it on [W3schools](https://www.w3schools.com/cs/index.php). Now, I am able to have a codespace to experiment with C#. I started with simple code that seems similar to java so that I can connect it to my experiences in java during the school year.
 
-```js
-function App() {
-  return (
-    <div>
-      <Heading />
-    </div>
-  );
+
+Created a codespace by following the instructions on Get Started section and got this:
+```C#
+namespace HelloWorld
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
 }
 ```
+Tried to replicate what w3school shows by copying `Console.WriteLine(Value);` but showed error and told me to declare a value to output it:
+```C#
+namespace HelloWorld
+{
+    internal class Program
+    {
+        private const string Value = "Hi";
 
-*This is in the `Navbar`:*
-
-```js
-function Heading() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Value);
+        }
+    }
 }
 ```
+Notes so far:
+* `Console.WriteLine();` is like `System.out.println();`
+* C# is very similar to java since it is object-oriented
 
 #### **Tinker #2**:
 
-After making the `Heading`, I thought it will be a cool idea that since I can reuse a function, I can use the repeat the Heading. Thus, I made a second component `Para` to experiment with. Below, I labeled in `comments` the amount of times the `Heading` and `Para` will repeat.
-
-```js
-function App() {
-  return (
-    <div>
-      {/* first */}
-      <Heading />
-      <Para />
-      {/* second */}
-      <Heading />
-      <Para />
-      {/* third */}
-      <Heading />
-      <Para />
-    </div>
-  );
-}
-```
-
-*The function for `Para` is:*
-
-```js
-function Para() {
-    return (
-      <div>
-        <p>Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World</p>
-      </div>
-    );
-  }
-```
-
-With this, I am starting to get the hang of React which makes creating the front end of a website much more easily by separating each component.
 
 ## *Sources**:
 
