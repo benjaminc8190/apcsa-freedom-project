@@ -70,16 +70,17 @@ With this, I am starting to get the hang of React which makes creating the front
 
 ## *Sources**:
 
-* [Freecodecamp](https://www.freecodecamp.org/learn/front-end-development-libraries/#bootstrap)
-* [React document](https://react.dev/learn)
+* [Unity for beginners](https://www.youtube.com/watch?v=XtQMytORBmM)
+* [W3Schools](https://www.w3schools.com/cs/index.php)
+* [Godot project showcase](https://godotengine.org/showcase/)
 
 ## **EDP**:
 
-For this entry of the project, I am currently on the first step of the engineering design process. This is where I define the problem my project will strive to solve. The problem that my projects will solve is students being ignorant of their gades. Being ignorants of your grades can pose a big problem to a person's school career because they will not know where they need to improve and whether to tell a teacher about a mistake in their grade. Thus, my project will give the students a grade book where they will see their assignments real time. Unlike other grade books, RiceGrades will provide a more fun and interactive grading system for teachers, students, and parents.
+I'm currently on the first step of the engineering design process. This is where I define the problem my project will strive to solve.                                           The problem that my projects will solve is students being ignorant of their gades. Being ignorants of your grades can pose a big problem to a person's school career because they will not know where they need to improve and whether to tell a teacher about a mistake in their grade. Thus, my project will give the students a grade book where they will see their assignments real time. Unlike other grade books, RiceGrades will provide a more fun and interactive grading system for teachers, students, and parents.
 
 ## **Skills**:
 
-As I complete the first step of the project, I tried to incorporate some skills that I can learn and retain. For example, I broke down my tinkering into smaller pieces so that each time I'm free, I will learn a new concept of React which helped me practice **problem decomposition**. I also articulated ideas with my partners as we meet in the library every week to delegate our roles(We decided that Samuel will be the middle man since he has knowledge on React and Firebase while I will learn React and Yu learns Firebase) and plan on what we will work on. During these meetings, we would additionally circulate ideas about how we want the website to look like. For example, I came up with the idea of the color themes and Samuel wanted to include a quote that we all agree on. This is where I practiced my skills **time-management** and **communication**.
+                                         As I complete the first step of the project, I tried to incorporate some skills that I can learn and retain. For example, I broke down my tinkering into smaller pieces so that each time I'm free, I will learn a new concept of React which helped me practice **problem decomposition**. I also articulated ideas with my partners as we meet in the library every week to delegate our roles(We decided that Samuel will be the middle man since he has knowledge on React and Firebase while I will learn React and Yu learns Firebase) and plan on what we will work on. During these meetings, we would additionally circulate ideas about how we want the website to look like. For example, I came up with the idea of the color themes and Samuel wanted to include a quote that we all agree on. This is where I practiced my skills **time-management** and **communication**.
 
 [Next](entry02.md)
 
