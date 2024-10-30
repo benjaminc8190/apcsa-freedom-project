@@ -2,7 +2,7 @@
 ##### 11/04/24
 
 ## **Context**:
-In this project, I will be makeing a civilization or city-building simulator game with my Zixuan Yu and William Zheng. The tools that we've testing with to see the best fit to use for the project are [Unity]([https://react.dev/learn](https://unity.com/)) and [Godot]([https://react.dev/learn](https://godotengine.org/)).              To get familiar with it, I did some [Freecodecamp](https://www.freecodecamp.org/learn/front-end-development-libraries/#bootstrap) lessons and searched up it's document. With these sources, I  tinkered and played around with the features of React to see if it's the right tool for me to use.
+In this project, I will be makeing a civilization or city-building simulator game with my Zixuan Yu and William Zheng. The tools that we've testing with to see the best fit to use for the project are [Unity]([https://react.dev/learn](https://unity.com/)) and [Godot]([https://react.dev/learn](https://godotengine.org/)). These tools support (C#)[https://www.w3schools.com/cs/index.php], a programming language I plan to use for the project.             
 
 ## **Content**:
 
