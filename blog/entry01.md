@@ -49,7 +49,7 @@ This is the interface for Godot:
 ![Godot](../img/godot-ui.png)
 
 This is the interface for Unity:
-![Godot](../img/unity-ui.png)
+![Unity](../img/unity-ui.png)
 
 Some differences I have encountered are:
 *
