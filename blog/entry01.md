@@ -46,7 +46,7 @@ Notes so far:
 My team were debating whether to use Godot or Unity so we downloaded both to get the feel of both of them and looked through some of their games.
 
 
-## *Sources**:
+## **Sources**:
 
 * [Unity for beginners](https://www.youtube.com/watch?v=XtQMytORBmM)
 * [W3Schools](https://www.w3schools.com/cs/index.php)
