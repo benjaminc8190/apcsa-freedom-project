@@ -2,7 +2,7 @@
 ##### 11/04/24
 
 ## **Context**:
-In this project, I will be makeing a civilization or city-building simulator game with my Zixuan Yu and William Zheng. The tools that we've testing with to see the best fit to use for the project are [Unity](https://unity.com/) and [Godot](https://godotengine.org/). These tools support [C#](https://www.w3schools.com/cs/index.php), a programming language I plan to use for the project.             
+In this project, I will be makeing a civilization or city-building simulator game with my Zixuan Yu and William Zheng. The tools that we've testing with to see the best fit to use for the project are [Unity](https://unity.com/) and [Godot](https://godotengine.org/). These tools support [C#](https://www.w3schools.com/cs/index.php), a programming language I plan to use for the project.
 
 ## **Content**:
 
@@ -43,7 +43,16 @@ Notes so far:
 * C# is very similar to java since it is object-oriented
 
 #### **Tinker #2**:
-My team were debating whether to use Godot or Unity so we downloaded both to get the feel of both of them and looked through some of their games.
+My team were debating whether to use Godot or Unity so we downloaded both to get the feel of both of them and looked through some of their games. Here are their interfaces for the developer:
+
+This is the interface for Godot:
+![Godot](../img/godot-ui.png)
+
+This is the interface for Unity:
+![Godot](../img/unity-ui.png)
+
+Some differences I have encountered are:
+*
 
 
 ## **Sources**:
@@ -54,7 +63,7 @@ My team were debating whether to use Godot or Unity so we downloaded both to get
 
 ## **EDP**:
 
-I'm currently on the first step of the engineering design process. This is where I define the problem my project will strive to solve. The problem that my team is planning to solve is improving decision-making because it can be vital when times get stressful which is why we aim to pressure the user to make choices through having random events popup. Our game will require a lot of critical thinking on a timely matter which causes the thrill of it. 
+I'm currently on the first step of the engineering design process. This is where I define the problem my project will strive to solve. The problem that my team is planning to solve is improving decision-making because it can be vital when times get stressful which is why we aim to pressure the user to make choices through having random events popup. Our game will require a lot of critical thinking on a timely matter which causes the thrill of it.
 
 ## **Skills**:
 
