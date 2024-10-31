@@ -43,6 +43,7 @@ Notes so far:
 * C# is very similar to java since it is object-oriented
 
 #### **Tinker #2**:
+My team were debating whether to use Godot or Unity so we downloaded both to get the feel of both of them and looked through some of their games.
 
 
 ## *Sources**:
