@@ -52,7 +52,11 @@ This is the interface for Unity:
 ![Unity](../img/unity-ui.png)
 
 Some differences I have encountered are:
-*
+
+* Godot i easier to load up
+* Godot has a less jumbled up interface, but there is a lot of switching back and forth between preview and script 
+* Skills are easily transferrable, support C#
+* Tutorials are much more recent
 
 
 ## **Sources**:
