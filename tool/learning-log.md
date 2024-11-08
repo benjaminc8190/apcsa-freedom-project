@@ -53,6 +53,12 @@ Notes so far:
  * everybody is using it so we can ask when need help
  * tutorials are much more recent
 
+### 11/7/24: [Freecodecamp course](https://www.youtube.com/watch?v=S8lMTwSRoRg&t=923s)
+
+The following basically serves as a menu to either exit the game or play the game:
+
+
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
