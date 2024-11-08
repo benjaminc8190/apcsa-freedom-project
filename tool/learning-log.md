@@ -56,7 +56,7 @@ Notes so far:
 ### 11/7/24: [Freecodecamp course](https://www.youtube.com/watch?v=S8lMTwSRoRg&t=923s)
 
 The following basically serves as a menu to either exit the game or play the game(it's supposed to bring you to the World file scene which shows nothing so far):
-![menu and script](godot_scene_script_and_preview.png)
+![menu and script](img/godot_scene_script_and_preview.png)
 
 
 
