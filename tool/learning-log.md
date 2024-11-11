@@ -60,7 +60,9 @@ Notes so far:
 The following basically serves as a menu to either exit the game or play the game(it's supposed to bring you to the World file scene which shows nothing so far):
 ![menu and script](../img/godot_scene_script_and_preview.png)
 
+```GDscript
 
+```
 
 <!-- 
 * Links you used today (websites, videos, etc)
