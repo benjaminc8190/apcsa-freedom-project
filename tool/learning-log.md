@@ -8,7 +8,7 @@
 
 ### 10/02/24: [Unity tutorial for Beginners](https://www.youtube.com/watch?v=XtQMytORBmM)
 * Unity User Interface
-  * Top left: hierarchy- Contains what happens in the scene, drag sprites up to create game object 
+  * Top left: hierarchy- Contains what happens in the scene, drag sprites up to create game object
   * Bottom: project- game elements such as sprites and scripts, usually imorted images
   * Top middle: scene- Basically the preview for what happens in the scene, select game view to see how the game will look like from user perspective
   * Left: Inspector- Manipulating game objects to perform actions and name the objects
@@ -43,7 +43,7 @@ namespace HelloWorld
 ```
 Notes so far:
 * `Console.WriteLine();` is like `System.out.println();`
-* C# is very similar to java since it is object-oriented 
+* C# is very similar to java since it is object-oriented
 
 ### 10/26/24: [Godot Showcase](https://godotengine.org/showcase/), [First game in Godot](https://www.youtube.com/watch?v=iwGVLiFL-Lw)
 * Pros of switching to Godot:
@@ -76,12 +76,47 @@ func _on_play_pressed() -> void:
 
 I will be trying to find assets and already-drawn arts to move as sprites and continue testing them out.
 
+### 11/7/24: [Freecodecamp course(continue)](https://www.youtube.com/watch?v=S8lMTwSRoRg&t=923s) & [Assets](https://ansimuz.itch.io/sunny-land-pixel-game-art)
+
+Default template:
+
+```GDscript
+extends CharacterBody2D
 
 
-<!-- 
+const SPEED = 300.0
+const JUMP_VELOCITY = -400.0
+
+
+func _physics_process(delta: float) -> void:
+	# Add the gravity.
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+
+	# Handle jump.
+	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+
+	# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
+	var direction := Input.get_axis("ui_left", "ui_right")
+	if direction:
+		velocity.x = direction * SPEED
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+
+	move_and_slide()
+```
+Note to self: make sure the files are children of the proper parent so that they do not act together, the floor was a child of Player so it had the same physics and therefore it fell due to the sprite(Player) falling physics. Here is the correct parent-child relationship to keep the static body from falling with the sprite:
+![menu and script](../img/animation-files.png)
+
+
+<!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
 * Questions you still have
 * What you're going to try next
+* Use ```GDscript``` for multi-line code snippets
+* For images- ![menu and script](../img/whatever.png)
 -->
