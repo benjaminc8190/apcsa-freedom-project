@@ -116,7 +116,7 @@ Note to self: make sure the files are children of the proper parent so that they
 # Animation
 @onready var anim =get_node("AnimatedSprite2D") #onready is for accesing the variable on runtime
 func _ready():
-		anim.play("Idle")
+	anim.play("Idle")
 
 # Game Physics
 func _physics_process(delta: float) -> void:
@@ -138,6 +138,44 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		anim.play("Idle")
 ```
+However, I will not be able to implement the jump animation into this code because the sprite is simutaneosly jumping and running at the same time. Thus, I must replace the `"AnimatedSprite2D"` from line 2 with `"AnimationPlayer"` which is a different object for animating the sprite. Another alternative is using the `AnimationTree` object 
+
+```GDscript
+# Animation
+@onready var anim =get_node("AnimationPlayer") #onready is for accesing the variable on runtime
+func _ready():
+	anim.play("Idle")
+
+# Game Physics
+func _physics_process(delta: float) -> void:
+	# Add the gravity.
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+	# Handle jump.
+	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+		anim.play("Jump")
+
+	# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
+	var direction := Input.get_axis("ui_left", "ui_right")
+	if direction == -1:
+		get_node("AnimatedSprite2D").flip_h = true
+	elif direction == 1: #else if
+		get_node("AnimatedSprite2D").flip_h = false
+	if direction:
+		velocity.x = direction * SPEED
+		if velocity.x == 0:
+			anim.play("Run")
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+		if velocity.y == 0:
+			anim.play("Idle") #proper indents
+	if velocity.y > 0:
+		anim.play("Fall") 
+```
+The newly added logic statements allow the sprite to look in the directions it is moving and features the jump and fall animation
+However, the jump animation is still not rendering so I must use the logic between the velocity and when the sprite hits the floor which makes the velocity of y 0.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
