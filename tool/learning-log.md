@@ -138,7 +138,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		anim.play("Idle")
 ```
-However, I will not be able to implement the jump animation into this code because the sprite is simutaneosly jumping and running at the same time. Thus, I must replace the `"AnimatedSprite2D"` from line 2 with `"AnimationPlayer"` which is a different object for animating the sprite. Another alternative is using the `AnimationTree` object 
+However, I will not be able to implement the jump animation into this code because the sprite is simutaneosly jumping and running at the same time. Thus, I must replace the `"AnimatedSprite2D"` from line 2 with `"AnimationPlayer"` which is a different object for animating the sprite. Another alternative is using the `AnimationTree` object
 
 ```GDscript
 # Animation
@@ -172,10 +172,12 @@ func _physics_process(delta: float) -> void:
 		if velocity.y == 0:
 			anim.play("Idle") #proper indents
 	if velocity.y > 0:
-		anim.play("Fall") 
+		anim.play("Fall")
 ```
 The newly added logic statements allow the sprite to look in the directions it is moving and features the jump and fall animation
 However, the jump animation is still not rendering so I must use the logic between the velocity and when the sprite hits the floor which makes the velocity of y 0.
+Here is the animation:
+![menu and script](../img/godot-animation.png)
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
