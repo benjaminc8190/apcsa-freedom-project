@@ -176,7 +176,8 @@ func _physics_process(delta: float) -> void:
 ```
 The newly added logic statements allow the sprite to look in the directions it is moving and features the jump and fall animation
 However, the jump animation is still not rendering so I must use the logic between the velocity and when the sprite hits the floor which makes the velocity of y 0.
-Here is the animation:
+
+Here is the animation frames for the idle animation:
 ![menu and script](../img/godot-animation.png)
 <!--
 * Links you used today (websites, videos, etc)
