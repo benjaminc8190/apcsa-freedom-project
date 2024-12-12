@@ -2,7 +2,7 @@
 ##### 12/11/24
 
 ## **Context**:
-Throughout the past few weeks since the last blog, I have been working on sharpening my skills with [Godot](https://godotengine.org/), which Ihave locked in on as my tool, to prepare for the city-building civilization game where I adjusted to use GDScript instead of C#. As I learned my tool, I used 
+Throughout the past few weeks since the last blog, I have been working on sharpening my skills with [Godot](https://godotengine.org/), which I have locked in on as my tool, to prepare for the city-building civilization game where I adjusted to use GDScript instead of C#. As I learned my tool, I used a [FreeCodeCamp tutorial](https://www.youtube.com/watch?v=S8lMTwSRoRg&t=2496s) to help me get started with world generation. Although it guided me through making a platformer game, I still learned a lot such as how to import [assets/arts packs](https://ansimuz.itch.io/sunny-land-pixel-game-art) and use them in my game.
 
 ## **Content**:
 
