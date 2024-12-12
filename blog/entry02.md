@@ -17,7 +17,7 @@ Throughout the past few weeks since the last blog, I have been working on sharpe
 ## **Sources**:
 
 * [Assets pack](https://ansimuz.itch.io/sunny-land-pixel-game-art)
-* [Godot reference]((https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html))
+* [Godot reference](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
 * [FreeCodeCamp tutorial](https://www.youtube.com/watch?v=S8lMTwSRoRg&t=2496s)
 
 ## **EDP**:
