@@ -180,7 +180,7 @@ However, the jump animation is still not rendering so I must use the logic betwe
 Here is the animation frames for the idle animation:
 ![menu and script](../img/godot-animation.png)
 
-12/3/24
+## 12/3/24 [Merge Conflict testing](https://www.youtube.com/watch?v=fZ-CJIYPFMI&t=215s)
 Yu, William, and I tried to provoke merge conflicts and attempted to start the collaboration project using Github Desktop. 
 A merge conflict happened when we had one person add objects and another person without objects commit at nearly the same time. The person who pushed last recieved this:
 ```GDscript
@@ -218,6 +218,7 @@ script = ExtResource("2_8siem")
 ```
 This was special because it wasn't apart of any script so I can't just resolve the conflict like I did for the movementspeed.
 
+Therefore, we commited this error into github and edited there to resolve the conflict and clear up the extraneous code such as `<<<<< HEAD`
 
 <!--
 * Links you used today (websites, videos, etc)
