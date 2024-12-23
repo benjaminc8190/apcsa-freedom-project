@@ -179,6 +179,46 @@ However, the jump animation is still not rendering so I must use the logic betwe
 
 Here is the animation frames for the idle animation:
 ![menu and script](../img/godot-animation.png)
+
+12/3/24
+Yu, William, and I tried to provoke merge conflicts and attempted to start the collaboration project using Github Desktop. 
+A merge conflict happened when we had one person add objects and another person without objects commit at nearly the same time. The person who pushed last recieved this:
+```GDscript
+[gd_scene load_steps=3 format=3 uid="uid://rcd7vc7mj8e2"]
+
+[ext_resource type="PackedScene" uid="uid://bhglro57ltxjk" path="res://character_body_2d.tscn" id="1_oivte"]
+[ext_resource type="Script" path="res://movement.gd" id="2_8siem"]
+
+[node name="Node2D" type="Node2D"]
+
+<<<<<<< HEAD
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2(407.313, 226)
+shape = SubResource("RectangleShape2D_cbba5")
+
+[node name="CharacterBody2D" parent="CollisionShape2D4" instance=ExtResource("1_oivte")]
+position = Vector2(-90.3125, -89)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(580, 860)
+shape = SubResource("RectangleShape2D_f4ko0")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(-162, 326)
+shape = SubResource("RectangleShape2D_vxif3")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(1313, 324)
+shape = SubResource("RectangleShape2D_d8elw")
+=======
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_oivte")]
+position = Vector2(51, 23)
+script = ExtResource("2_8siem")
+>>>>>>> 59bcdf7f0c64c21a069dd8f0bef7a43b4a085b7b
+```
+This was special because it wasn't apart of any script so I can't just resolve the conflict like I did for the movementspeed.
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
