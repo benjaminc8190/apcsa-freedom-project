@@ -220,6 +220,35 @@ This was special because it wasn't apart of any script so I can't just resolve t
 
 Therefore, we commited this error into github and edited there to resolve the conflict and clear up the extraneous code such as `<<<<< HEAD`
 
+## 1/10/25 [Instantiate objects]([https://www.youtube.com/watch?v=fZ-CJIYPFMI&t=215s](https://www.youtube.com/watch?v=Qs8oSGmhx-U))
+
+Started off learning that instanstiating objects is a method that lets you create instances of the object:
+```GDscript
+func _ready():
+	inst(Vector2(0,0))
+	inst(Vector2(100,0))
+
+func inst(pos):
+	var instance = mynode.instantiate()
+	instance.position = pos
+	add_child(instance)
+```
+The code shows two objects that are 100 x-units away from each other
+
+This is what I tried before the video left off how they linked the mouse to the left click to get the object to pop up everytime the mouse is clicked:
+```GDscript
+func _physics_process(delta):
+	if Input.is_action_just_pressed("mb"):
+	inst(get_global_mouse_position())
+
+func inst(pos):
+	var instance = mynode.instantiate()
+	instance.position = pos
+	add_child(instance)
+```
+
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
