@@ -220,7 +220,7 @@ This was special because it wasn't apart of any script so I can't just resolve t
 
 Therefore, we commited this error into github and edited there to resolve the conflict and clear up the extraneous code such as `<<<<< HEAD`
 
-## 1/10/25 [Instantiate objects]([https://www.youtube.com/watch?v=fZ-CJIYPFMI&t=215s](https://www.youtube.com/watch?v=Qs8oSGmhx-U))
+## 1/10/25 [Instantiate objects](https://www.youtube.com/watch?v=Qs8oSGmhx-U)
 
 Started off learning that instanstiating objects is a method that lets you create instances of the object:
 ```GDscript
