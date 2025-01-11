@@ -247,6 +247,19 @@ func inst(pos):
 	add_child(instance)
 ```
 
+Therefore, I watched another [tutorial](https://www.youtube.com/watch?v=05OixHPbxNA&t=68s) for obtaining a mouse input. I fixed the settings through project(on the top left corner)> Project Setting > Input Map
+
+Here is the finalized version(I named the mouse "Left-Click"):
+```GDscript
+func _physics_process(delta):
+	if Input.is_action_just_pressed("Left-Click"):
+		inst(get_global_mouse_position())
+
+func inst(pos):
+	var instance = mynode.instantiate()
+	instance.position = pos
+	add_child(instance)
+```
 
 
 <!--
