@@ -89,8 +89,8 @@ func inst(pos):
 
 ## **Plan**:
 * Make a map for the world
-* Add different models for buildings
-* 
+* Make a menu for constructing buildings
+
 
 
 ## **Sources**:
