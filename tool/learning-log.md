@@ -261,7 +261,19 @@ func inst(pos):
 	add_child(instance)
 ```
 
-## 2/28/25 []()
+## 2/28/25 
+I have made some progress with my project in creating a menu for placing down the buildings
+Here is a break down of one of the scripts for the menu(it is used for toggling the menu)
+
+```GDscript
+extends Panel
+
+func _input(event):
+	if event.is_action_pressed("toggle_menu"):
+		visible = !visible
+```
+To break it down, I set the "toggle_menu" as M in the Input Map, which is for events. The `!visisble` reverses the previous effects when the event happens so that the menu will pop up and collapse.
+
 
 
 <!--
