@@ -274,7 +274,39 @@ func _input(event):
 ```
 To break it down, I set the "toggle_menu" as M in the Input Map, which is for events. The `!visisble` reverses the previous effects when the event happens so that the menu will pop up and collapse.
 
+## 3/7/25
+Throughout this week, I learned about the popup node and thought it'd be cool to add and make it our menu for buildings
 
+Here are some popup methods I used:
+* `popup_menu.hide()` hides the popup node named "popup_menu" which I had for showing it when a condition(user presses 'm' is met)
+* `popup_menu.show(` shows the node when the user presses 'm' in the following script attached to the world scene
+```
+extends Node2D
+
+var popup_menu_scene = preload("res://menu/popupmenu.tscn") 
+var popup_menu : Control 
+var player : Node2D 
+var camera : Camera2D  
+
+func _ready():
+	popup_menu = popup_menu_scene.instantiate()
+	add_child(popup_menu)
+	popup_menu.hide() 
+	player = get_node("CharacterBody2D")
+	camera = get_node("Camera2D")
+
+func _input(event):
+	if Input.is_action_just_pressed("m"):
+		toggle_menu()
+
+func toggle_menu():
+	if popup_menu.visible:
+		popup_menu.hide()  # Hide the menu
+	else:
+		popup_menu.show()  # Show the menu
+```
+* The first variable, "popup_menu" is defined by taking in the scene dedicated to being a menu
+* The add_child() method dynamically adds the scene for the popup menu to the world so that the player can view the menu for buildings.
 
 <!--
 * Links you used today (websites, videos, etc)
