@@ -1,5 +1,5 @@
 # Entry 4
-##### X/X/XX
+##### 3/11/25
 
 ## **Context**:
 Before the Winter Break, my partners and I brainstormed many plans for progress on our project and learning more about our tool. After so many changes to our original ideas and plans to find a promising solution that's feasible for us to do within just a few days before vacation. Although we weren't able to complete all our goals, we managed some progress for our project. Since the [FreeCodeCamp tutorial](https://www.youtube.com/watch?v=S8lMTwSRoRg&t=2496s) was too long, I skipped ahead and saw that that was not a game I was trying to make so I took away some key concepts instead just as animations, importing assets, and the title screen where I practiced using buttons then moved on to other short videos for features that we want in our projects. I learned about how to [instantiate objects](https://www.youtube.com/watch?v=Qs8oSGmhx-U&t=2s) to get the concept of allowing the player to build buildings and learning to use [Github Desktop](https://www.youtube.com/watch?v=fZ-CJIYPFMI&t=57s) for sharing and change controls with my partners.
@@ -106,11 +106,6 @@ I am on the fourth step of the engineering design process(EDP) as I plan the mos
 ## **Skills**:
 
 Some skills that I have picked up during the fourth step of the EDP were **how to learn** and **organization** from managing the plans of the project and finding youtube videos to learn specific features I want to add. While doing this project, I am learning more about myself and how I take in information. I felt that I learned more from listening to youtube videos in my free time rather than reading the documentaries and articles from online. That's why I watched a lot of videos for this project such as [how to get input for Godot](https://www.youtube.com/watch?v=05OixHPbxNA&t=68s), [instantiating objects](https://www.youtube.com/watch?v=Qs8oSGmhx-U&t=2s), and [how to use Github Desktop](https://www.youtube.com/watch?v=fZ-CJIYPFMI&t=57s). Also, I have been trying to organize what we need/want in the project for a feasible MVP that we can commit. As this is our senior year, there are many acitivies that I want to participate in and have a lot to do due to multiple AP classes. Therefore, I have been working hard to organize our ideas into categories of how much we need or just simply want for fun.
-
-[Previous](entry02.md) | [Next](entry04.md)
-
-[Home](../README.md)
-
 
 [Previous](entry03.md) | [Next](entry05.md)
 
