@@ -308,6 +308,27 @@ func toggle_menu():
 * The first variable, "popup_menu" is defined by taking in the scene dedicated to being a menu
 * The add_child() method dynamically adds the scene for the popup menu to the world so that the player can view the menu for buildings.
 
+## 3/7/25
+For this week, I tried to polish up the functionality of the menu from last week so that I can get off the training wheels of the "testbuild.gd" file. In order to get rid of the testbuild file, I had to make the menu effective by dynamically adding the buildings without the player randomly clicking while neglecting the menu to place down the Godot icon.
+
+```GDscricpt
+func place_building(pos):
+	if selected_building_scene:
+		print("Placing building at:", pos)
+		var instance = selected_building_scene.instantiate()
+		instance.position = pos
+		instance.scale = Vector2(0.33, 0.33)
+		print(get_parent().get_parent().get_parent())
+		get_parent().get_parent().get_parent().add_child(instance)  # Add the building to the parent scene
+		can_place_building = false  # Disable building placement after placing the building
+		print(can_place_building)
+	else:
+		print("No building selected!")
+```
+
+Yu and I made this function in a script attached to the popupmenu so that it instantiates the selected building(its scene that contains the building) which appears on the map. To put the scene on the map, we must find the map's place in the hierarchy with relativity to the script's attached file. We played around with adding as many `get_parent()` to find out when we will get to the map. First, it printed out a node2d that's the child of the sprite which makes the building move with the player which is not what we wanted. The second `get_parent()` gets the sprite which makes it a sibling, also following the user around. The next `get_parent()` gets the parent of the sprite, which is the map thus the building will stay with the map and not move with the player.
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
