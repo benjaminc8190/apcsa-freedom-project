@@ -328,6 +328,21 @@ func place_building(pos):
 
 Yu and I made this function in a script attached to the popupmenu so that it instantiates the selected building(its scene that contains the building) which appears on the map. To put the scene on the map, we must find the map's place in the hierarchy with relativity to the script's attached file. We played around with adding as many `get_parent()` to find out when we will get to the map. First, it printed out a node2d that's the child of the sprite which makes the building move with the player which is not what we wanted. The second `get_parent()` gets the sprite which makes it a sibling, also following the user around. The next `get_parent()` gets the parent of the sprite, which is the map thus the building will stay with the map and not move with the player.
 
+## 3/30/25
+We implemented a feature that changes the cameras angle to cover more area for view when the player wants to place buildings.
+
+```GDscript
+func switch_to_map_camera():
+	if map_camera:
+		map_camera.make_current()
+		print("Switched to MapCamera")
+
+func switch_to_player_camera():
+	if map_camera:
+		player_camera.make_current()
+		print("Switched to PlayerCamera")
+```
+The statements, when called, are helper functions that allow us to switch between the different angles. The `.make_current()` is a Godot native method that allows us to make the "current" screen. The print statements are meant for us to test when the cam angles are switched.
 
 <!--
 * Links you used today (websites, videos, etc)
