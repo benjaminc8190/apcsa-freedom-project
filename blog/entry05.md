@@ -2,14 +2,18 @@
 ##### 4/22/25
 
 ## **Context**:
-We have been trying to keep on track with our plans, although some modifications had to be made. Our goal for a menu of items was somewhat completed since we have it created and has appeared on some occasions. In our next weeks, I will continue to work on it to make sure that it will appear properly when the user interacts with it. Also, my partners have been working hard to implement a tile map for our world creation and the progress seems to be looking good. For the menu, I used the [Pop-up menu node](https://www.youtube.com/watch?v=ESxRKqdu34M) from Godot and I watch about [Tilemaps for Godot](https://www.youtube.com/watch?v=ZutpG0_CYrQ&t=274s) to help with the world creation.
+During the Spring Break, my partners and I have been working diligently to have a finalized "barebone" of the project since the deadline for the Minimum Viable Product(MVP) was on 4/21/25. As we worked on the final features that we wanted in our game, we looked back into [control nodes for pop-up menus](https://www.youtube.com/watch?v=5Hog6a0EYa0&t=440s) for the characteristics of buildings from our previous main menu. Since our plans were set, we mainly had to deal with implementing the features such as a population and wood resource as the "currency" of the game so far. As a "barebone" we also had to make sure there were little to no bugs and crashes which is why we left miniature details out such as the player walking through trees and random invisible blocks where the player cannot move through.
 
 ## Progress in the project:
 
+### Lumberyard & Menu:
+
+### Reshaping Main Menu:
 
 ## **Sources**:
 
-* [Pop-up menu node](https://www.youtube.com/watch?v=ESxRKqdu34M)
+* [control nodes for pop-up menus](https://www.youtube.com/watch?v=5Hog6a0EYa0&t=440s)
+* 
 
 ## **EDP**:
 We are currently developing the protoype, our project, which is the fifth step of the Engineering Design Process. I have completed some parts of the plan for my project such as creating a menu for the user to see the buildings. In the upcoming weeks, I will continue to develop the game for placing the buildings down since I am currently waiting on the building designs and tilemap for the holistic world for the game. When finished, our game will be tested by our peers to ensure that there are no bugs that we overlooked which is the sixth step of the EDP.
