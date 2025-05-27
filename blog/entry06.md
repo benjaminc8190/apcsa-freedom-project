@@ -4,11 +4,13 @@
 ## **Context**:
 
 Our product, the MVP(minimum viable product), has been finalize after months of working on it. There is still so much more we wanted to add such as a progression feature for the player to gain population and a more readble user interface, but now we have to prepare for an expo and presentation for the project. Therefore, to get our product functional with minimal bugs during our pitch at the expo and presentation, we must have our peers give us feedback. 
-
-Content: 
+ 
 ## Takeaways from giving your Expo elevator pitch
 
-* No expo yet
+* Be ready to answer questions such as "what were your challenges"
+* Don't forget to introduce the name of the game and members' names
+* Try to have a warm-up before you start
+* Don't look or feel tired/bored when presenting
 
 ## Takeaways from giving your in-class presentation
 
@@ -17,16 +19,8 @@ Content:
 * Have a wamrm-up(Ex: Tongue Twister) before speaking to have a better voice and presence when speaking
 * Present and look at a camera to see how I am maintaining eye contact during presentation
 
-## **Future prospects for game**:
-* Tree removal for player expansion
-* More buildings for more resources: farms, mines 
-* Population increase and decrease systems/features
-* Shop/Merchant near the shore to trade for food
-* Notification system that notifies the player of events
-* Remove buildings feature (DONE)
-
 ## **Sources**:
-* [Elevator Pitch notes](nothing yet)
+* [Elevator Pitch notes](https://github.com/zixuany7791/The-New-Settlement/blob/main/README.md)
 * [Presentation](https://docs.google.com/presentation/d/1o1J2jjSPWHZM6Ct8P2ob6UwUpwdKB43gpU11VMH_J6w/edit?slide=id.g35c5c1261ee_0_5#slide=id.g35c5c1261ee_0_5)
 
 ## **EDP**:
